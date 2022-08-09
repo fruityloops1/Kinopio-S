@@ -1,5 +1,5 @@
 functions_csv = "data/odyssey_functions.csv"
-build_target = "odyssey"
+build_target = "Kinopio-S"
 
 [decomp_me]
 compiler_name = "clang-4.0.1"
