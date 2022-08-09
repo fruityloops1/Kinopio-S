@@ -1,6 +1,9 @@
 # Kinopio-S
 Decompilation of Captain Toad: Treasure Tracker 1.3.0
+
 This Project only aims to get functions from the game itself matching, so any other libraries linked statically are unimportant. (except for templates, etc.)
+
+The spreadsheet for the game source structure can be found [here](https://docs.google.com/spreadsheets/d/129Aqvw0S8mnHpofM58JlIccYp2Zko1cXjGS4L81C2Iw/edit#gid=1875706103)
 
 # Building
 
