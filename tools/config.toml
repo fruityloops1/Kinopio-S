@@ -3,4 +3,4 @@ build_target = "Kinopio-S"
 
 [decomp_me]
 compiler_name = "clang-4.0.1"
-default_compile_flags = "-x c++ -O3 -g2 -std=c++1z -fno-rtti -fno-exceptions -Wall -Wextra -fno-strict-aliasing"
+default_compile_flags = "-x c++ -std=gnu++14 -fno-common -fno-strict-aliasing -fno-short-enums -fdata-sections -fPIC -mcpu=cortex-a57+fp+simd+crypto+crc -O3 -fno-slp-vectorize -fno-exceptions -fomit-frame-pointer -Wall -c"
