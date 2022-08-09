@@ -1,5 +1,6 @@
-# OdysseyDecomp
-Decompilation of all Super Mario Odyssey versions, from 1.0.0 to 1.3.0.
+# Kinopio-S
+Decompilation of Captain Toad: Treasure Tracker 1.3.0
+This Project only aims to get functions from the game itself matching, so any other libraries linked statically are unimportant. (except for templates, etc.)
 
 # Building
 
@@ -19,7 +20,7 @@ The instructions below assume that you are using Linux (native or WSL) or macOS.
     * If you are on Ubuntu 18.04, you must first [update CMake by using the official CMake APT repository](https://apt.kitware.com/).
 * ccache (to speed up builds)
 * xdelta3
-* clang (not for compiling SMO code, but for compiling Rust tools)
+* clang (not for compiling game code, but for compiling Rust tools)
 
 Ubuntu users can install those dependencies by running:
 
@@ -72,8 +73,7 @@ To check whether everything built correctly, just run `tools/check` after the bu
 Anyone is welcome to contribute to this project, just send a pull request!
 
 ### TODO
-- Enable comparison between different versions and check for mis-matches in all versions using `tools/check`
-- 1.3.0 uses a different optimization method, find it and implement it into the toolchain
+- Find correct Compiler Flags
 
 # Credits
 This decompilation uses [this](https://github.com/open-ead/sead) as a reference for the sead library used. Big thanks to their research!

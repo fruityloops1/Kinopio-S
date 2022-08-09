@@ -4,9 +4,7 @@ To contribute to the project, you will need a disassembler or a decompiler such 
 
 Experience with reverse engineering optimized C++ code is very useful but not necessary if you already know how to decompile C code.
 
-Using a decompiler is strongly recommended for efficiency reasons. 
-
-Feel free to join the [SMO Modding Hub](https://discord.gg/u2dfaQpDh5) Discord server if you have any questions.
+Using a decompiler is strongly recommended for efficiency reasons.
 
 ## Language
 
