@@ -47,3 +47,6 @@ perf.data.old
 tools/check
 tools/listsym
 tools/decompme
+
+# clangd
+compile_commands.json
