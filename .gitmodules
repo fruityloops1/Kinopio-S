@@ -12,4 +12,4 @@
 	url = https://github.com/open-ead/botw-lib-musl
 [submodule "tools/common"]
 	path = tools/common
-	url = https://github.com/open-ead/nx-decomp-tools
+	url = https://github.com/fruityloops1/nx-decomp-tools.git
